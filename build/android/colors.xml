@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 22 Sep 2021 20:16:17 GMT
+-->
+<resources>
+  <color name="color_base_gray_0">#ffffffff</color>
+  <color name="color_base_gray_50">#fffafbfc</color>
+  <color name="color_base_gray_100">#fff5f7fa</color>
+  <color name="color_base_gray_200">#ffe4e6eb</color>
+  <color name="color_base_gray_300">#ffced0db</color>
+  <color name="color_base_gray_400">#ff9d9faf</color>
+  <color name="color_base_gray_500">#ff6a6d7d</color>
+  <color name="color_base_gray_600">#ff595a6b</color>
+  <color name="color_base_gray_700">#ff484657</color>
+  <color name="color_base_gray_800">#ff3c3847</color>
+  <color name="color_base_gray_850">#ff302d3b</color>
+  <color name="color_base_gray_900">#ff272431</color>
+  <color name="color_base_purple_50">#fff4f2ff</color>
+  <color name="color_base_purple_100">#ffebe5ff</color>
+  <color name="color_base_purple_200">#ffddd1ff</color>
+  <color name="color_base_purple_300">#ffc3adff</color>
+  <color name="color_base_purple_400">#ffa480ff</color>
+  <color name="color_base_purple_500">#ff8857fa</color>
+  <color name="color_base_purple_600">#ff793ef7</color>
+  <color name="color_base_purple_700">#ff6923f4</color>
+  <color name="color_base_purple_800">#ff4d1ab2</color>
+  <color name="color_base_purple_900">#ff330d80</color>
+  <color name="color_base_orange_50">#fffef6f4</color>
+  <color name="color_base_orange_100">#fffeede4</color>
+  <color name="color_base_orange_200">#ffffdccc</color>
+  <color name="color_base_orange_300">#ffffbda8</color>
+  <color name="color_base_orange_400">#fff99170</color>
+  <color name="color_base_orange_500">#fff76d43</color>
+  <color name="color_base_orange_600">#fff44e27</color>
+  <color name="color_base_orange_700">#ffcc4121</color>
+  <color name="color_base_orange_800">#ffa6361a</color>
+  <color name="color_base_orange_900">#ff7a2714</color>
+  <color name="color_base_green_50">#ffebfff8</color>
+  <color name="color_base_green_100">#ffc4ffed</color>
+  <color name="color_base_green_200">#ff74fbd0</color>
+  <color name="color_base_green_300">#ff52ebba</color>
+  <color name="color_base_green_400">#ff4ad4a8</color>
+  <color name="color_base_green_500">#ff37b88f</color>
+  <color name="color_base_green_600">#ff2e9977</color>
+  <color name="color_base_green_700">#ff24785d</color>
+  <color name="color_base_green_800">#ff1d614b</color>
+  <color name="color_base_green_900">#ff154737</color>
+  <color name="color_base_yellow_50">#fffbffe5</color>
+  <color name="color_base_yellow_100">#fff3febb</color>
+  <color name="color_base_yellow_200">#ffecfd91</color>
+  <color name="color_base_yellow_300">#ffdce967</color>
+  <color name="color_base_yellow_400">#ffc6cc4e</color>
+  <color name="color_base_yellow_500">#ffadab20</color>
+  <color name="color_base_yellow_600">#ff9e9828</color>
+  <color name="color_base_yellow_700">#ff8a8220</color>
+  <color name="color_base_yellow_800">#ff726916</color>
+  <color name="color_base_yellow_900">#ff5c5002</color>
+  <color name="color_base_pink_50">#fffff0fe</color>
+  <color name="color_base_pink_100">#ffffd9fb</color>
+  <color name="color_base_pink_200">#ffffb8f9</color>
+  <color name="color_base_pink_300">#ffff8df4</color>
+  <color name="color_base_pink_400">#fff26ddc</color>
+  <color name="color_base_pink_500">#ffe550c8</color>
+  <color name="color_base_pink_600">#ffcc3399</color>
+  <color name="color_base_pink_700">#ffbf1d7b</color>
+  <color name="color_base_pink_800">#ff990f54</color>
+  <color name="color_base_pink_900">#ff730b3f</color>
+  <color name="color_base_red_50">#fffef7f3</color>
+  <color name="color_base_red_100">#fffed9d5</color>
+  <color name="color_base_red_200">#fffec5be</color>
+  <color name="color_base_red_300">#ffff9387</color>
+  <color name="color_base_red_400">#fff87263</color>
+  <color name="color_base_red_500">#fff24f3d</color>
+  <color name="color_base_red_600">#ffdb321f</color>
+  <color name="color_base_red_700">#ffc2210f</color>
+  <color name="color_base_red_800">#ff961305</color>
+  <color name="color_base_red_900">#ff731409</color>
+  <color name="color_text_default_primary">#ff272431</color>
+  <color name="color_text_default_secondary">#ff6a6d7d</color>
+  <color name="color_text_default_warning">#ffc2210f</color>
+  <color name="color_text_default_action">#ff6923f4</color>
+  <color name="color_text_dm_primary">#ffffffff</color>
+  <color name="color_text_dm_secondary">#ffced0db</color>
+  <color name="color_text_dm_warning">#ffff9387</color>
+  <color name="color_text_dm_action">#ffc3adff</color>
+  
+</resources>

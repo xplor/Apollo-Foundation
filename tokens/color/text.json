@@ -1,0 +1,18 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "primary": { "value": "{color.base.gray.900.value}" },
+        "secondary": { "value": "{color.base.gray.500.value}" },
+        "warning" : { "value": "{color.base.red.700.value}" },
+        "action": { "value": "{color.base.purple.700.value}" }
+      },
+      "dm": {
+        "primary": { "value": "{color.base.gray.0.value}" },
+        "secondary": { "value": "{color.base.gray.300.value}" },
+        "warning" : { "value": "{color.base.red.300.value}" },
+        "action": { "value": "{color.base.purple.300.value}" }
+      }
+    }
+  }
+}
