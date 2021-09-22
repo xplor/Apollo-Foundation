@@ -1,6 +1,16 @@
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "prefix": "xpl",
+      "files": [{
+        "destination": "variables.css",
+        "format": "css/variables",
+        "fileHeader": "myFileHeader"
+      }]
+    },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",

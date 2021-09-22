@@ -1,17 +1,17 @@
 {
   "color": {
     "text": {
-      "default": {
-        "primary": { "value": "{color.base.gray.900.value}" },
-        "secondary": { "value": "{color.base.gray.500.value}" },
-        "warning" : { "value": "{color.base.red.700.value}" },
-        "action": { "value": "{color.base.purple.700.value}" }
-      },
+      
+        "primary": { "value": "{color.gray.900.value}", "comment": "gray-900"},
+        "secondary": { "value": "{color.gray.500.value}", "comment": "gray-500" },
+        "warning" : { "value": "{color.red.700.value}", "comment": "red-700" },
+        "action": { "value": "{color.purple.700.value}", "comment": "purple-700" },
+
       "dm": {
-        "primary": { "value": "{color.base.gray.0.value}" },
-        "secondary": { "value": "{color.base.gray.300.value}" },
-        "warning" : { "value": "{color.base.red.300.value}" },
-        "action": { "value": "{color.base.purple.300.value}" }
+        "primary": { "value": "{color.gray.0.value}", "comment": "gray-0" },
+        "secondary": { "value": "{color.gray.300.value}", "comment": "gray-300" },
+        "warning" : { "value": "{color.red.300.value}", "comment": "red-300" },
+        "action": { "value": "{color.purple.300.value}", "comment": "purple-300" }
       }
     }
   }
