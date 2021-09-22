@@ -4,6 +4,7 @@
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",
+      "prefix": "xpl",
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
