@@ -1,6 +1,6 @@
 {
   "size": {
-    "spacing": {
+    "font": {
       "Title 1" : {"value": "1.875"},
       "Title 2" : {"value": "1.5"},
       "Title 3" : {"value": "1.25"},

@@ -4,12 +4,24 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 04 Oct 2021 18:27:10 GMT
+// Generated on Mon, 04 Oct 2021 21:16:12 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
+    public static let xplSizeSpacing144 = CGFloat(140.00)
+    public static let xplSizeSpacing112 = CGFloat(112.00)
+    public static let xplSizeSpacing80 = CGFloat(80.00)
+    public static let xplSizeSpacing64 = CGFloat(64.00)
+    public static let xplSizeSpacing48 = CGFloat(48.00)
+    public static let xplSizeSpacing32 = CGFloat(32.00)
+    public static let xplSizeSpacing24 = CGFloat(24.00)
+    public static let xplSizeSpacing16 = CGFloat(16.00)
+    public static let xplSizeSpacing12 = CGFloat(12.00)
+    public static let xplSizeSpacing8 = CGFloat(8.00)
+    public static let xplSizeSpacing4 = CGFloat(4.00)
+    public static let xplSizeSpacing0 = CGFloat(0.00)
     public static let xplSizeFontCaption = CGFloat(12.00)
     public static let xplSizeFontCallout = CGFloat(12.00)
     public static let xplSizeFontBody = CGFloat(14.00)
@@ -18,14 +30,6 @@ public class StyleDictionary {
     public static let xplSizeFontTitle3 = CGFloat(20.00)
     public static let xplSizeFontTitle2 = CGFloat(24.00)
     public static let xplSizeFontTitle1 = CGFloat(30.00)
-    public static let xplSizeSpacingCaption = CGFloat(12.00)
-    public static let xplSizeSpacingCallout = CGFloat(12.00)
-    public static let xplSizeSpacingBody = CGFloat(14.00)
-    public static let xplSizeSpacingTitle5 = CGFloat(14.00)
-    public static let xplSizeSpacingTitle4 = CGFloat(16.00)
-    public static let xplSizeSpacingTitle3 = CGFloat(20.00)
-    public static let xplSizeSpacingTitle2 = CGFloat(24.00)
-    public static let xplSizeSpacingTitle1 = CGFloat(30.00)
     public static let xplFontWeightNormal = "normal"
     public static let xplFontWeightMedium = "medium"
     public static let xplFontWeightBold = "bold"
