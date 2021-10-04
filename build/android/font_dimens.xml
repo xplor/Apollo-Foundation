@@ -2,8 +2,24 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 04 Oct 2021 18:06:09 GMT
+  Generated on Mon, 04 Oct 2021 18:27:10 GMT
 -->
 <resources>
+  <dimen name="xpl_size_spacing_title_1">30.00dp</dimen>
+  <dimen name="xpl_size_spacing_title_2">24.00dp</dimen>
+  <dimen name="xpl_size_spacing_title_3">20.00dp</dimen>
+  <dimen name="xpl_size_spacing_title_4">16.00dp</dimen>
+  <dimen name="xpl_size_spacing_title_5">14.00dp</dimen>
+  <dimen name="xpl_size_spacing_body">14.00dp</dimen>
+  <dimen name="xpl_size_spacing_callout">12.00dp</dimen>
+  <dimen name="xpl_size_spacing_caption">12.00dp</dimen>
+  <dimen name="xpl_size_font_title_1">30.00sp</dimen>
+  <dimen name="xpl_size_font_title_2">24.00sp</dimen>
+  <dimen name="xpl_size_font_title_3">20.00sp</dimen>
+  <dimen name="xpl_size_font_title_4">16.00sp</dimen>
+  <dimen name="xpl_size_font_title_5">14.00sp</dimen>
+  <dimen name="xpl_size_font_body">14.00sp</dimen>
+  <dimen name="xpl_size_font_callout">12.00sp</dimen>
+  <dimen name="xpl_size_font_caption">12.00sp</dimen>
   
 </resources>

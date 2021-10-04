@@ -31,22 +31,25 @@
     "android": {
       "transformGroup": "android",
       "buildPath": "build/android/",
+      "prefix": "xpl",
       "files": [{
         "destination": "font_dimens.xml",
-        "format": "android/fontDimens",
+        "format": "android/resources",
         "filter": {
           "attributes": {
-            "category": "font"
+            "category": "size"
           }
-        },
-        "options": {
-          "outputReferences": true
         }
       },{
         "destination": "colors.xml",
-        "format": "android/colors",
+        "format": "android/resources",
         "options": {
           "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
         }
       }]
     },
@@ -54,6 +57,7 @@
     "ios-swift": {
       "transformGroup": "ios-swift",
       "buildPath": "build/ios-swift/",
+      "prefix": "xpl",
       "options": {
         "outputReferences": true
       },
@@ -67,10 +71,14 @@
     "ios-swift-separate-enums": {
       "transformGroup": "ios-swift-separate",
       "buildPath": "build/ios-swift/",
+      "prefix": "xpl",
       "files": [{
         "destination": "StyleDictionaryColor.swift",
         "format": "ios-swift/enum.swift",
         "className": "StyleDictionaryColor",
+        "options": {
+          "outputReferences": true
+        },
         "filter": {
           "attributes": {
             "category": "color"
@@ -81,9 +89,12 @@
         "format": "ios-swift/enum.swift",
         "className": "StyleDictionaryFont",
         "type": "float",
+        "options": {
+          "outputReferences": true
+        },
         "filter": {
           "attributes": {
-            "category": "font"
+            "category": "size"
           }
         }
       }]

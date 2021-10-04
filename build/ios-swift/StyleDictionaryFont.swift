@@ -4,22 +4,26 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 04 Oct 2021 18:06:09 GMT
+// Generated on Mon, 04 Oct 2021 18:27:10 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryFont {
-    public static let nameDefault = "apple-system, system-ui, 'Segoe UI', Arial, Helvetica, Roboto, sans-serif"
-    public static let sizeBody = "0.875"
-    public static let sizeCallout = "0.75"
-    public static let sizeCaption = "0.75"
-    public static let sizeTitle1 = "1.875"
-    public static let sizeTitle2 = "1.5"
-    public static let sizeTitle3 = "1.25"
-    public static let sizeTitle4 = "1"
-    public static let sizeTitle5 = "0.875"
-    public static let weightBold = "bold"
-    public static let weightMedium = "medium"
-    public static let weightNormal = "normal"
+    public static let xplFontCaption = CGFloat(12.00)
+    public static let xplFontCallout = CGFloat(12.00)
+    public static let xplFontBody = CGFloat(14.00)
+    public static let xplFontTitle5 = CGFloat(14.00)
+    public static let xplFontTitle4 = CGFloat(16.00)
+    public static let xplFontTitle3 = CGFloat(20.00)
+    public static let xplFontTitle2 = CGFloat(24.00)
+    public static let xplFontTitle1 = CGFloat(30.00)
+    public static let xplSpacingCaption = CGFloat(12.00)
+    public static let xplSpacingCallout = CGFloat(12.00)
+    public static let xplSpacingBody = CGFloat(14.00)
+    public static let xplSpacingTitle5 = CGFloat(14.00)
+    public static let xplSpacingTitle4 = CGFloat(16.00)
+    public static let xplSpacingTitle3 = CGFloat(20.00)
+    public static let xplSpacingTitle2 = CGFloat(24.00)
+    public static let xplSpacingTitle1 = CGFloat(30.00)
 }

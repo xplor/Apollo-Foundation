@@ -1,0 +1,9 @@
+{
+  "font": {
+    "weight": {
+      "Bold" : {"value": "bold"},
+      "Medium" : {"value": "medium"},
+      "Normal" : {"value": "normal"}
+    }
+  }
+}
