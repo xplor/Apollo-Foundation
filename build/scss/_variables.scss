@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 04 Oct 2021 17:55:30 GMT
+// Generated on Mon, 04 Oct 2021 18:06:09 GMT
 
 $xpl-font-weight-normal: normal;
 $xpl-font-weight-medium: medium;
@@ -25,6 +25,36 @@ $xpl-color-red-300: #ff9387;
 $xpl-color-red-200: #fec5be;
 $xpl-color-red-100: #fed9d5;
 $xpl-color-red-50: #fef7f3;
+$xpl-color-pink-900: #730b3f;
+$xpl-color-pink-800: #990f54;
+$xpl-color-pink-700: #bf1d7b;
+$xpl-color-pink-600: #cc3399;
+$xpl-color-pink-500: #e550c8;
+$xpl-color-pink-400: #f26ddc;
+$xpl-color-pink-300: #ff8df4;
+$xpl-color-pink-200: #ffb8f9;
+$xpl-color-pink-100: #ffd9fb;
+$xpl-color-pink-50: #fff0fe;
+$xpl-color-yellow-900: #5c5002;
+$xpl-color-yellow-800: #726916;
+$xpl-color-yellow-700: #8a8220;
+$xpl-color-yellow-600: #9e9828;
+$xpl-color-yellow-500: #adab20;
+$xpl-color-yellow-400: #c6cc4e;
+$xpl-color-yellow-300: #dce967;
+$xpl-color-yellow-200: #ecfd91;
+$xpl-color-yellow-100: #f3febb;
+$xpl-color-yellow-50: #fbffe5;
+$xpl-color-green-900: #154737;
+$xpl-color-green-800: #1d614b;
+$xpl-color-green-700: #24785d;
+$xpl-color-green-600: #2e9977;
+$xpl-color-green-500: #37b88f;
+$xpl-color-green-400: #4ad4a8;
+$xpl-color-green-300: #52ebba;
+$xpl-color-green-200: #74fbd0;
+$xpl-color-green-100: #c4ffed;
+$xpl-color-green-50: #ebfff8;
 $xpl-color-orange-900: #7a2714;
 $xpl-color-orange-800: #a6361a;
 $xpl-color-orange-700: #cc4121;
@@ -35,6 +65,16 @@ $xpl-color-orange-300: #ffbda8;
 $xpl-color-orange-200: #ffdccc;
 $xpl-color-orange-100: #feede4;
 $xpl-color-orange-50: #fef6f4;
+$xpl-color-purple-900: #330d80;
+$xpl-color-purple-800: #4d1ab2;
+$xpl-color-purple-700: #6923f4;
+$xpl-color-purple-600: #793ef7;
+$xpl-color-purple-500: #8857fa;
+$xpl-color-purple-400: #a480ff;
+$xpl-color-purple-300: #c3adff;
+$xpl-color-purple-200: #ddd1ff;
+$xpl-color-purple-100: #ebe5ff;
+$xpl-color-purple-50: #f4f2ff;
 $xpl-color-gray-900: #272431;
 $xpl-color-gray-850: #302d3b;
 $xpl-color-gray-800: #3c3847;
@@ -59,33 +99,33 @@ $xpl-color-action-warning-dm: $xpl-color-red-300;
 $xpl-color-action-warning-lm: $xpl-color-red-700;
 $xpl-color-action-disabled-dm: $xpl-color-gray-700;
 $xpl-color-action-disabled-lm: $xpl-color-gray-200;
-$xpl-color-action-primary-hover-dm: #a480ffff;
-$xpl-color-action-primary-hover-lm: #4d1ab2ff;
-$xpl-color-action-primary-dm: #c3adffff;
-$xpl-color-action-primary-lm: #6923f4ff;
+$xpl-color-action-primary-hover-dm: $xpl-color-purple-400;
+$xpl-color-action-primary-hover-lm: $xpl-color-purple-800;
+$xpl-color-action-primary-dm: $xpl-color-purple-300;
+$xpl-color-action-primary-lm: $xpl-color-purple-700;
 $xpl-color-trivial-bg-dm: $xpl-color-transparent;
 $xpl-color-trivial-bg-lm: $xpl-color-gray-200;
 $xpl-color-trivial-dm: $xpl-color-gray-300;
 $xpl-color-trivial-lm: $xpl-color-gray-500;
 $xpl-color-information-bg-dm: $xpl-color-transparent;
 $xpl-color-highlight-bg-dm: $xpl-color-transparent;
-$xpl-color-highlight-bg-lm: #ecfd91ff;
-$xpl-color-highlight-dm: #ecfd91ff;
-$xpl-color-highlight-lm: #adab20ff;
+$xpl-color-highlight-bg-lm: $xpl-color-yellow-200;
+$xpl-color-highlight-dm: $xpl-color-yellow-200;
+$xpl-color-highlight-lm: $xpl-color-yellow-500;
 $xpl-color-negative-bg-dm: $xpl-color-transparent;
 $xpl-color-negative-bg-lm: $xpl-color-red-100;
 $xpl-color-negative-dm: $xpl-color-red-300;
 $xpl-color-negative-lm: $xpl-color-red-600;
 $xpl-color-positive-bg-dm: $xpl-color-transparent;
-$xpl-color-positive-bg-lm: #c4ffedff;
-$xpl-color-positive-dm: #52ebbaff;
-$xpl-color-positive-lm: #37b88fff;
+$xpl-color-positive-bg-lm: $xpl-color-green-100;
+$xpl-color-positive-dm: $xpl-color-green-300;
+$xpl-color-positive-lm: $xpl-color-green-500;
 $xpl-color-secondary-bg-dm: $xpl-color-gray-900; // themable
-$xpl-color-secondary-bg-lm: #ebe5ffff; // themable
-$xpl-color-secondary-hover-dm: #a480ffff; // themable
-$xpl-color-secondary-hover-lm: #4d1ab2ff; // themable
-$xpl-color-secondary-dm: #c3adffff; // themable
-$xpl-color-secondary-lm: #6923f4ff; // themable
+$xpl-color-secondary-bg-lm: $xpl-color-purple-100; // themable
+$xpl-color-secondary-hover-dm: $xpl-color-purple-400; // themable
+$xpl-color-secondary-hover-lm: $xpl-color-purple-800; // themable
+$xpl-color-secondary-dm: $xpl-color-purple-300; // themable
+$xpl-color-secondary-lm: $xpl-color-purple-700; // themable
 $xpl-color-primary-bg-dm: $xpl-color-gray-900; // themable
 $xpl-color-primary-bg-lm: $xpl-color-orange-50; // themable
 $xpl-color-primary-dm: $xpl-color-orange-400; // themable
@@ -100,10 +140,10 @@ $xpl-color-background-2-dm: $xpl-color-gray-900;
 $xpl-color-background-2-lm: $xpl-color-gray-50;
 $xpl-color-background-1-dm: $xpl-color-gray-800;
 $xpl-color-background-1-lm: $xpl-color-gray-0;
-$xpl-color-purple: #c3adffff;
-$xpl-color-pink: #ff8df4ff;
-$xpl-color-yellow: #ecfd91ff;
-$xpl-color-green: #74fbd0ff;
+$xpl-color-accent-purple: $xpl-color-purple-300;
+$xpl-color-accent-pink: $xpl-color-pink-300;
+$xpl-color-accent-yellow: $xpl-color-yellow-200;
+$xpl-color-accent-green: $xpl-color-green-200;
 $xpl-color-text-action-dm: $xpl-color-primary-dm; // uses themable token
 $xpl-color-text-action-lm: $xpl-color-primary-lm; // uses themable token
 $xpl-color-information-bg-lm: $xpl-color-primary-bg-lm; // uses themable token

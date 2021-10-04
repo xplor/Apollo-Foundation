@@ -2,13 +2,13 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 04 Oct 2021 17:55:30 GMT
+  Generated on Mon, 04 Oct 2021 18:06:09 GMT
 -->
 <resources>
-  <color name="color_green">#74fbd0ff</color>
-  <color name="color_yellow">#ecfd91ff</color>
-  <color name="color_pink">#ff8df4ff</color>
-  <color name="color_purple">#c3adffff</color>
+  <color name="color_accent_green">#ff74fbd0</color>
+  <color name="color_accent_yellow">#ffecfd91</color>
+  <color name="color_accent_pink">#ffff8df4</color>
+  <color name="color_accent_purple">#ffc3adff</color>
   <color name="color_gray_0">#ffffffff</color>
   <color name="color_gray_50">#fffafbfc</color>
   <color name="color_gray_100">#fff5f7fa</color>
@@ -21,6 +21,16 @@
   <color name="color_gray_800">#ff3c3847</color>
   <color name="color_gray_850">#ff302d3b</color>
   <color name="color_gray_900">#ff272431</color>
+  <color name="color_purple_50">#fff4f2ff</color>
+  <color name="color_purple_100">#ffebe5ff</color>
+  <color name="color_purple_200">#ffddd1ff</color>
+  <color name="color_purple_300">#ffc3adff</color>
+  <color name="color_purple_400">#ffa480ff</color>
+  <color name="color_purple_500">#ff8857fa</color>
+  <color name="color_purple_600">#ff793ef7</color>
+  <color name="color_purple_700">#ff6923f4</color>
+  <color name="color_purple_800">#ff4d1ab2</color>
+  <color name="color_purple_900">#ff330d80</color>
   <color name="color_orange_50">#fffef6f4</color>
   <color name="color_orange_100">#fffeede4</color>
   <color name="color_orange_200">#ffffdccc</color>
@@ -31,6 +41,36 @@
   <color name="color_orange_700">#ffcc4121</color>
   <color name="color_orange_800">#ffa6361a</color>
   <color name="color_orange_900">#ff7a2714</color>
+  <color name="color_green_50">#ffebfff8</color>
+  <color name="color_green_100">#ffc4ffed</color>
+  <color name="color_green_200">#ff74fbd0</color>
+  <color name="color_green_300">#ff52ebba</color>
+  <color name="color_green_400">#ff4ad4a8</color>
+  <color name="color_green_500">#ff37b88f</color>
+  <color name="color_green_600">#ff2e9977</color>
+  <color name="color_green_700">#ff24785d</color>
+  <color name="color_green_800">#ff1d614b</color>
+  <color name="color_green_900">#ff154737</color>
+  <color name="color_yellow_50">#fffbffe5</color>
+  <color name="color_yellow_100">#fff3febb</color>
+  <color name="color_yellow_200">#ffecfd91</color>
+  <color name="color_yellow_300">#ffdce967</color>
+  <color name="color_yellow_400">#ffc6cc4e</color>
+  <color name="color_yellow_500">#ffadab20</color>
+  <color name="color_yellow_600">#ff9e9828</color>
+  <color name="color_yellow_700">#ff8a8220</color>
+  <color name="color_yellow_800">#ff726916</color>
+  <color name="color_yellow_900">#ff5c5002</color>
+  <color name="color_pink_50">#fffff0fe</color>
+  <color name="color_pink_100">#ffffd9fb</color>
+  <color name="color_pink_200">#ffffb8f9</color>
+  <color name="color_pink_300">#ffff8df4</color>
+  <color name="color_pink_400">#fff26ddc</color>
+  <color name="color_pink_500">#ffe550c8</color>
+  <color name="color_pink_600">#ffcc3399</color>
+  <color name="color_pink_700">#ffbf1d7b</color>
+  <color name="color_pink_800">#ff990f54</color>
+  <color name="color_pink_900">#ff730b3f</color>
   <color name="color_red_50">#fffef7f3</color>
   <color name="color_red_100">#fffed9d5</color>
   <color name="color_red_200">#fffec5be</color>
@@ -56,23 +96,23 @@
   <color name="color_primary_dm">#fff99170</color><!-- themable -->
   <color name="color_primary_bg_lm">#fffef6f4</color><!-- themable -->
   <color name="color_primary_bg_dm">#ff272431</color><!-- themable -->
-  <color name="color_secondary_lm">#6923f4ff</color><!-- themable -->
-  <color name="color_secondary_dm">#c3adffff</color><!-- themable -->
-  <color name="color_secondary_hover_lm">#4d1ab2ff</color><!-- themable -->
-  <color name="color_secondary_hover_dm">#a480ffff</color><!-- themable -->
-  <color name="color_secondary_bg_lm">#ebe5ffff</color><!-- themable -->
+  <color name="color_secondary_lm">#ff6923f4</color><!-- themable -->
+  <color name="color_secondary_dm">#ffc3adff</color><!-- themable -->
+  <color name="color_secondary_hover_lm">#ff4d1ab2</color><!-- themable -->
+  <color name="color_secondary_hover_dm">#ffa480ff</color><!-- themable -->
+  <color name="color_secondary_bg_lm">#ffebe5ff</color><!-- themable -->
   <color name="color_secondary_bg_dm">#ff272431</color><!-- themable -->
-  <color name="color_positive_lm">#37b88fff</color>
-  <color name="color_positive_dm">#52ebbaff</color>
-  <color name="color_positive_bg_lm">#c4ffedff</color>
+  <color name="color_positive_lm">#ff37b88f</color>
+  <color name="color_positive_dm">#ff52ebba</color>
+  <color name="color_positive_bg_lm">#ffc4ffed</color>
   <color name="color_positive_bg_dm">#00ffffff</color>
   <color name="color_negative_lm">#ffdb321f</color>
   <color name="color_negative_dm">#ffff9387</color>
   <color name="color_negative_bg_lm">#fffed9d5</color>
   <color name="color_negative_bg_dm">#00ffffff</color>
-  <color name="color_highlight_lm">#adab20ff</color>
-  <color name="color_highlight_dm">#ecfd91ff</color>
-  <color name="color_highlight_bg_lm">#ecfd91ff</color>
+  <color name="color_highlight_lm">#ffadab20</color>
+  <color name="color_highlight_dm">#ffecfd91</color>
+  <color name="color_highlight_bg_lm">#ffecfd91</color>
   <color name="color_highlight_bg_dm">#00ffffff</color>
   <color name="color_information_lm">#fff44e27</color><!-- uses themable token -->
   <color name="color_information_dm">#fff99170</color><!-- uses themable token -->
@@ -82,10 +122,10 @@
   <color name="color_trivial_dm">#ffced0db</color>
   <color name="color_trivial_bg_lm">#ffe4e6eb</color>
   <color name="color_trivial_bg_dm">#00ffffff</color>
-  <color name="color_action_primary_lm">#6923f4ff</color>
-  <color name="color_action_primary_dm">#c3adffff</color>
-  <color name="color_action_primary_hover_lm">#4d1ab2ff</color>
-  <color name="color_action_primary_hover_dm">#a480ffff</color>
+  <color name="color_action_primary_lm">#ff6923f4</color>
+  <color name="color_action_primary_dm">#ffc3adff</color>
+  <color name="color_action_primary_hover_lm">#ff4d1ab2</color>
+  <color name="color_action_primary_hover_dm">#ffa480ff</color>
   <color name="color_action_disabled_lm">#ffe4e6eb</color>
   <color name="color_action_disabled_dm">#ff484657</color>
   <color name="color_action_warning_lm">#ffc2210f</color>

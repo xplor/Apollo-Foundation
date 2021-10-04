@@ -54,6 +54,9 @@
     "ios-swift": {
       "transformGroup": "ios-swift",
       "buildPath": "build/ios-swift/",
+      "options": {
+        "outputReferences": true
+      },
       "files": [{
         "destination": "StyleDictionary.swift",
         "format": "ios-swift/class.swift",
