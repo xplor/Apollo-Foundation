@@ -8,7 +8,11 @@
       "files": [{
         "destination": "variables.css",
         "format": "css/variables",
-        "fileHeader": "myFileHeader"
+        "fileHeader": "myFileHeader",
+        "options": {
+          "showFileHeader": false,
+          "outputReferences": true
+        }
       }]
     },
     "scss": {
@@ -17,7 +21,11 @@
       "prefix": "xpl",
       "files": [{
         "destination": "_variables.scss",
-        "format": "scss/variables"
+        "format": "scss/variables",
+        "options": {
+          "showFileHeader": true,
+          "outputReferences": true
+        }
       }]
     },
     "android": {
@@ -25,83 +33,24 @@
       "buildPath": "build/android/",
       "files": [{
         "destination": "font_dimens.xml",
-        "format": "android/fontDimens"
+        "format": "android/fontDimens",
+        "filter": {
+          "attributes": {
+            "category": "font"
+          }
+        },
+        "options": {
+          "outputReferences": true
+        }
       },{
         "destination": "colors.xml",
-        "format": "android/colors"
-      }]
-    },
-    "compose": {
-      "transformGroup": "compose",
-      "buildPath": "build/compose/",
-      "files": [{
-        "destination": "StyleDictionaryColor.kt",
-        "format": "compose/object",
-        "className": "StyleDictionaryColor",
-        "packageName": "StyleDictionaryColor",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "StyleDictionarySize.kt",
-        "format": "compose/object",
-        "className": "StyleDictionarySize",
-        "packageName": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
+        "format": "android/colors",
+        "options": {
+          "outputReferences": true
         }
       }]
     },
-    "ios": {
-      "transformGroup": "ios",
-      "buildPath": "build/ios/",
-      "files": [{
-        "destination": "StyleDictionaryColor.h",
-        "format": "ios/colors.h",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "StyleDictionaryColor.m",
-        "format": "ios/colors.m",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "StyleDictionarySize.h",
-        "format": "ios/static.h",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      },{
-        "destination": "StyleDictionarySize.m",
-        "format": "ios/static.m",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
-      }]
-    },
+    
     "ios-swift": {
       "transformGroup": "ios-swift",
       "buildPath": "build/ios-swift/",
@@ -125,13 +74,13 @@
           }
         }
       },{
-        "destination": "StyleDictionarySize.swift",
+        "destination": "StyleDictionaryFont.swift",
         "format": "ios-swift/enum.swift",
-        "className": "StyleDictionarySize",
+        "className": "StyleDictionaryFont",
         "type": "float",
         "filter": {
           "attributes": {
-            "category": "size"
+            "category": "font"
           }
         }
       }]

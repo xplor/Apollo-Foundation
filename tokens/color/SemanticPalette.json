@@ -1,0 +1,66 @@
+{
+  "color": {
+      "positive": {
+        "lm": {"value": "{color.green.500.value}"},
+        "dm": {"value": "{color.green.300.value}"}
+      },
+      "positive-bg": {
+        "lm": {"value": "{color.green.100.value}"},
+        "dm": {"value": "{color.transparent.value}"}
+      },
+      "negative": {
+        "lm": {"value": "{color.red.600.value}"},
+        "dm": {"value": "{color.red.300.value}"}
+      },
+      "negative-bg": {
+        "lm": {"value": "{color.red.100.value}"},
+        "dm": {"value": "{color.transparent.value}"}
+      },
+      "highlight": {
+        "lm": {"value": "{color.yellow.500.value}"},
+        "dm": {"value": "{color.yellow.200.value}"}
+      },
+      "highlight-bg": {
+        "lm": {"value": "{color.yellow.200.value}"},
+        "dm": {"value": "{color.transparent.value}"}
+      },
+      "information": {
+        "lm": {"value": "{color.primary.lm.value}","comment": "uses themable token"},
+        "dm": {"value": "{color.primary.dm.value}","comment": "uses themable token"}
+      },
+      "information-bg": {
+        "lm": {"value": "{color.primary-bg.lm.value}","comment": "uses themable token"},
+        "dm": {"value": "{color.transparent.value}"}
+      },
+      "trivial": {
+        "lm": {"value": "{color.gray.500.value}"},
+        "dm": {"value": "{color.gray.300.value}"}
+      },
+      "trivial-bg": {
+        "lm": {"value": "{color.gray.200.value}"},
+        "dm": {"value": "{color.transparent.value}"}
+      },
+      "action": {
+        "primary": {
+          "lm": {"value": "{color.purple.700.value}"},
+          "dm": {"value": "{color.purple.300.value}"}
+        },
+        "primary.hover": {
+          "lm": {"value": "{color.purple.800.value}"},
+          "dm": {"value": "{color.purple.400.value}"}
+        },
+        "disabled": {
+          "lm": {"value": "{color.gray.200.value}"},
+          "dm": {"value": "{color.gray.700.value}"}
+        },
+        "warning": {
+          "lm": {"value": "{color.red.700.value}"},
+          "dm": {"value": "{color.red.300.value}"}
+        },
+        "warning.hover": {
+          "lm": {"value": "{color.red.800.value}"},
+          "dm": {"value": "{color.red.400.value}"}
+        }
+      }
+    }
+}

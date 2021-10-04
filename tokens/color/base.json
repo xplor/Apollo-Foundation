@@ -1,6 +1,5 @@
 {
-  "color": {
-    
+  "color": {  
       "gray": {
         "0": {"value": "#ffffffff"},
         "50": {"value": "#fafbfcff"},
@@ -86,7 +85,7 @@
         "700": {"value": "#c2210fff"},
         "800": {"value": "#961305ff"},
         "900": {"value": "#731409ff" }
-      }
-
+      },
+      "transparent": {"value": "#ffffff00"}
   }
 }
