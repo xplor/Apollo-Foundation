@@ -1,3 +1,13 @@
+# Requirements
+
+Amazon's Style Dictionary tool is required to run this project. The tool can be installed globally on your machine via the following command.
+
+```bash
+$ npm install -g style-dictionary
+```
+
+More information about getting started with Style Dictionary can be [found here](https://amzn.github.io/style-dictionary/#/quick_start).
+
 # Basic Style Dictionary
 
 This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
