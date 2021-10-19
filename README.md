@@ -1,3 +1,6 @@
+Figma library with light documentation here
+https://www.figma.com/file/qRzFFgT4Fy8p9GpUmV0g5E/Apollo-Foundation?node-id=2609%3A67938
+
 # Requirements
 
 Amazon's Style Dictionary tool is required to run this project. The tool can be installed globally on your machine via the following command.
