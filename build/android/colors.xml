@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 08 Oct 2021 20:52:29 GMT
+  Generated on Tue, 19 Oct 2021 18:31:41 GMT
 -->
 <resources>
   <color name="xpl_color_accent_green">@color/xpl_color_green_200</color>
@@ -10,17 +10,19 @@
   <color name="xpl_color_accent_pink">@color/xpl_color_pink_300</color>
   <color name="xpl_color_accent_purple">@color/xpl_color_purple_300</color>
   <color name="xpl_color_gray_0">#ffffffff</color>
-  <color name="xpl_color_gray_50">#fffafbfc</color>
-  <color name="xpl_color_gray_100">#fff5f7fa</color>
-  <color name="xpl_color_gray_200">#ffe4e6eb</color>
-  <color name="xpl_color_gray_300">#ffced0db</color>
-  <color name="xpl_color_gray_400">#ff9d9faf</color>
-  <color name="xpl_color_gray_500">#ff6a6d7d</color>
-  <color name="xpl_color_gray_600">#ff595a6b</color>
-  <color name="xpl_color_gray_700">#ff484657</color>
-  <color name="xpl_color_gray_800">#ff3c3847</color>
-  <color name="xpl_color_gray_850">#ff302d3b</color>
-  <color name="xpl_color_gray_900">#ff272431</color>
+  <color name="xpl_color_gray_50">#fff8f9fa</color>
+  <color name="xpl_color_gray_100">#ff000000</color>
+  <color name="xpl_color_gray_200">#ffeeeff3</color>
+  <color name="xpl_color_gray_300">#ffeaebef</color>
+  <color name="xpl_color_gray_400">#ffe5e6ec</color>
+  <color name="xpl_color_gray_500">#ffced0db</color>
+  <color name="xpl_color_gray_600">#ff6a6d7d</color>
+  <color name="xpl_color_gray_700">#ff3c3847</color>
+  <color name="xpl_color_gray_800">#ff363240</color>
+  <color name="xpl_color_gray_900">#ff302d3b</color>
+  <color name="xpl_color_gray_1000">#ff292632</color>
+  <color name="xpl_color_gray_1100">#ff201e29</color>
+  <color name="xpl_color_gray_1200">#ff18161f</color>
   <color name="xpl_color_purple_50">#fff4f2ff</color>
   <color name="xpl_color_purple_100">#ffebe5ff</color>
   <color name="xpl_color_purple_200">#ffddd1ff</color>
@@ -82,16 +84,16 @@
   <color name="xpl_color_red_800">#ff961305</color>
   <color name="xpl_color_red_900">#ff731409</color>
   <color name="xpl_color_transparent">#00ffffff</color>
-  <color name="xpl_color_background_1_lm">@color/xpl_color_gray_0</color>
-  <color name="xpl_color_background_1_dm">@color/xpl_color_gray_800</color>
-  <color name="xpl_color_background_2_lm">@color/xpl_color_gray_50</color>
-  <color name="xpl_color_background_2_dm">@color/xpl_color_gray_900</color>
-  <color name="xpl_color_background_3_lm">@color/xpl_color_gray_100</color>
-  <color name="xpl_color_background_3_dm">@color/xpl_color_gray_850</color>
-  <color name="xpl_color_navigation_lm">@color/xpl_color_gray_800</color>
-  <color name="xpl_color_navigation_dm">@color/xpl_color_gray_900</color>
-  <color name="xpl_color_stroke_lm">@color/xpl_color_gray_200</color>
-  <color name="xpl_color_stroke_dm">@color/xpl_color_gray_700</color>
+  <color name="xpl_color_foreground_lm">@color/xpl_color_gray_0</color>
+  <color name="xpl_color_foreground_dm">@color/xpl_color_gray_1000</color>
+  <color name="xpl_color_background_lm">@color/xpl_color_gray_50</color>
+  <color name="xpl_color_background_dm">@color/xpl_color_gray_1200</color>
+  <color name="xpl_color_background_2_lm">@color/xpl_color_gray_100</color>
+  <color name="xpl_color_background_2_dm">@color/xpl_color_gray_1100</color>
+  <color name="xpl_color_navigation_lm">@color/xpl_color_gray_1000</color>
+  <color name="xpl_color_navigation_dm">@color/xpl_color_gray_1000</color>
+  <color name="xpl_color_stroke_lm">@color/xpl_color_gray_400</color>
+  <color name="xpl_color_stroke_dm">@color/xpl_color_gray_900</color>
   <color name="xpl_color_primary_lm">@color/xpl_color_orange_600</color><!-- themable -->
   <color name="xpl_color_primary_dm">@color/xpl_color_orange_400</color><!-- themable -->
   <color name="xpl_color_primary_bg_lm">@color/xpl_color_orange_50</color><!-- themable -->

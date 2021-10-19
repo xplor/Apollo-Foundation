@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 08 Oct 2021 20:52:29 GMT
+// Generated on Tue, 19 Oct 2021 18:31:41 GMT
 
 
 import UIKit
@@ -71,17 +71,19 @@ public enum StyleDictionaryColor {
     public static let xplPurple200 = UIColor(red: 0.867, green: 0.820, blue: 1.000, alpha: 1)
     public static let xplPurple100 = UIColor(red: 0.922, green: 0.898, blue: 1.000, alpha: 1)
     public static let xplPurple50 = UIColor(red: 0.957, green: 0.949, blue: 1.000, alpha: 1)
-    public static let xplGray900 = UIColor(red: 0.153, green: 0.141, blue: 0.192, alpha: 1)
-    public static let xplGray850 = UIColor(red: 0.188, green: 0.176, blue: 0.231, alpha: 1)
-    public static let xplGray800 = UIColor(red: 0.235, green: 0.220, blue: 0.278, alpha: 1)
-    public static let xplGray700 = UIColor(red: 0.282, green: 0.275, blue: 0.341, alpha: 1)
-    public static let xplGray600 = UIColor(red: 0.349, green: 0.353, blue: 0.420, alpha: 1)
-    public static let xplGray500 = UIColor(red: 0.416, green: 0.427, blue: 0.490, alpha: 1)
-    public static let xplGray400 = UIColor(red: 0.616, green: 0.624, blue: 0.686, alpha: 1)
-    public static let xplGray300 = UIColor(red: 0.808, green: 0.816, blue: 0.859, alpha: 1)
-    public static let xplGray200 = UIColor(red: 0.894, green: 0.902, blue: 0.922, alpha: 1)
-    public static let xplGray100 = UIColor(red: 0.961, green: 0.969, blue: 0.980, alpha: 1)
-    public static let xplGray50 = UIColor(red: 0.980, green: 0.984, blue: 0.988, alpha: 1)
+    public static let xplGray1200 = UIColor(red: 0.094, green: 0.086, blue: 0.122, alpha: 1)
+    public static let xplGray1100 = UIColor(red: 0.125, green: 0.118, blue: 0.161, alpha: 1)
+    public static let xplGray1000 = UIColor(red: 0.161, green: 0.149, blue: 0.196, alpha: 1)
+    public static let xplGray900 = UIColor(red: 0.188, green: 0.176, blue: 0.231, alpha: 1)
+    public static let xplGray800 = UIColor(red: 0.212, green: 0.196, blue: 0.251, alpha: 1)
+    public static let xplGray700 = UIColor(red: 0.235, green: 0.220, blue: 0.278, alpha: 1)
+    public static let xplGray600 = UIColor(red: 0.416, green: 0.427, blue: 0.490, alpha: 1)
+    public static let xplGray500 = UIColor(red: 0.808, green: 0.816, blue: 0.859, alpha: 1)
+    public static let xplGray400 = UIColor(red: 0.898, green: 0.902, blue: 0.925, alpha: 1)
+    public static let xplGray300 = UIColor(red: 0.918, green: 0.922, blue: 0.937, alpha: 1)
+    public static let xplGray200 = UIColor(red: 0.933, green: 0.937, blue: 0.953, alpha: 1)
+    public static let xplGray100 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
+    public static let xplGray50 = UIColor(red: 0.973, green: 0.976, blue: 0.980, alpha: 1)
     public static let xplGray0 = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let xplTextWarningDm = xplRed300
     public static let xplTextWarningLm = xplRed700
@@ -126,16 +128,16 @@ public enum StyleDictionaryColor {
     public static let xplPrimaryBgLm = xplOrange50 /* themable */
     public static let xplPrimaryDm = xplOrange400 /* themable */
     public static let xplPrimaryLm = xplOrange600 /* themable */
-    public static let xplStrokeDm = xplGray700
-    public static let xplStrokeLm = xplGray200
-    public static let xplNavigationDm = xplGray900
-    public static let xplNavigationLm = xplGray800
-    public static let xplBackground3Dm = xplGray850
-    public static let xplBackground3Lm = xplGray100
-    public static let xplBackground2Dm = xplGray900
-    public static let xplBackground2Lm = xplGray50
-    public static let xplBackground1Dm = xplGray800
-    public static let xplBackground1Lm = xplGray0
+    public static let xplStrokeDm = xplGray900
+    public static let xplStrokeLm = xplGray400
+    public static let xplNavigationDm = xplGray1000
+    public static let xplNavigationLm = xplGray1000
+    public static let xplBackground2Dm = xplGray1100
+    public static let xplBackground2Lm = xplGray100
+    public static let xplBackgroundDm = xplGray1200
+    public static let xplBackgroundLm = xplGray50
+    public static let xplForegroundDm = xplGray1000
+    public static let xplForegroundLm = xplGray0
     public static let xplAccentPurple = xplPurple300
     public static let xplAccentPink = xplPink300
     public static let xplAccentYellow = xplYellow200

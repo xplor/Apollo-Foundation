@@ -84,17 +84,19 @@
   --xpl-color-purple-200: #ddd1ff;
   --xpl-color-purple-100: #ebe5ff;
   --xpl-color-purple-50: #f4f2ff;
-  --xpl-color-gray-900: #272431;
-  --xpl-color-gray-850: #302d3b;
-  --xpl-color-gray-800: #3c3847;
-  --xpl-color-gray-700: #484657;
-  --xpl-color-gray-600: #595a6b;
-  --xpl-color-gray-500: #6a6d7d;
-  --xpl-color-gray-400: #9d9faf;
-  --xpl-color-gray-300: #ced0db;
-  --xpl-color-gray-200: #e4e6eb;
-  --xpl-color-gray-100: #f5f7fa;
-  --xpl-color-gray-50: #fafbfc;
+  --xpl-color-gray-1200: #18161f;
+  --xpl-color-gray-1100: #201e29;
+  --xpl-color-gray-1000: #292632;
+  --xpl-color-gray-900: #302d3b;
+  --xpl-color-gray-800: #363240;
+  --xpl-color-gray-700: #3c3847;
+  --xpl-color-gray-600: #6a6d7d;
+  --xpl-color-gray-500: #ced0db;
+  --xpl-color-gray-400: #e5e6ec;
+  --xpl-color-gray-300: #eaebef;
+  --xpl-color-gray-200: #eeeff3;
+  --xpl-color-gray-100: #000000;
+  --xpl-color-gray-50: #f8f9fa;
   --xpl-color-gray-0: #ffffff;
   --xpl-color-text-warning-dm: var(--xpl-color-red-300);
   --xpl-color-text-warning-lm: var(--xpl-color-red-700);
@@ -139,16 +141,16 @@
   --xpl-color-primary-bg-lm: var(--xpl-color-orange-50); /* themable */
   --xpl-color-primary-dm: var(--xpl-color-orange-400); /* themable */
   --xpl-color-primary-lm: var(--xpl-color-orange-600); /* themable */
-  --xpl-color-stroke-dm: var(--xpl-color-gray-700);
-  --xpl-color-stroke-lm: var(--xpl-color-gray-200);
-  --xpl-color-navigation-dm: var(--xpl-color-gray-900);
-  --xpl-color-navigation-lm: var(--xpl-color-gray-800);
-  --xpl-color-background-3-dm: var(--xpl-color-gray-850);
-  --xpl-color-background-3-lm: var(--xpl-color-gray-100);
-  --xpl-color-background-2-dm: var(--xpl-color-gray-900);
-  --xpl-color-background-2-lm: var(--xpl-color-gray-50);
-  --xpl-color-background-1-dm: var(--xpl-color-gray-800);
-  --xpl-color-background-1-lm: var(--xpl-color-gray-0);
+  --xpl-color-stroke-dm: var(--xpl-color-gray-900);
+  --xpl-color-stroke-lm: var(--xpl-color-gray-400);
+  --xpl-color-navigation-dm: var(--xpl-color-gray-1000);
+  --xpl-color-navigation-lm: var(--xpl-color-gray-1000);
+  --xpl-color-background-2-dm: var(--xpl-color-gray-1100);
+  --xpl-color-background-2-lm: var(--xpl-color-gray-100);
+  --xpl-color-background-dm: var(--xpl-color-gray-1200);
+  --xpl-color-background-lm: var(--xpl-color-gray-50);
+  --xpl-color-foreground-dm: var(--xpl-color-gray-1000);
+  --xpl-color-foreground-lm: var(--xpl-color-gray-0);
   --xpl-color-accent-purple: var(--xpl-color-purple-300);
   --xpl-color-accent-pink: var(--xpl-color-pink-300);
   --xpl-color-accent-yellow: var(--xpl-color-yellow-200);
