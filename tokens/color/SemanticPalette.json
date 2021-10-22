@@ -33,11 +33,11 @@
         "dm": {"value": "{color.transparent.value}"}
       },
       "trivial": {
-        "lm": {"value": "{color.gray.500.value}"},
-        "dm": {"value": "{color.gray.300.value}"}
+        "lm": {"value": "{color.gray.600.value}"},
+        "dm": {"value": "{color.gray.500.value}"}
       },
       "trivial-bg": {
-        "lm": {"value": "{color.gray.200.value}"},
+        "lm": {"value": "{color.gray.400.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "action": {
@@ -50,8 +50,8 @@
           "dm": {"value": "{color.purple.400.value}"}
         },
         "disabled": {
-          "lm": {"value": "{color.gray.200.value}"},
-          "dm": {"value": "{color.gray.700.value}"}
+          "lm": {"value": "{color.gray.100.value}"},
+          "dm": {"value": "{color.gray.800.value}"}
         },
         "warning": {
           "lm": {"value": "{color.red.700.value}"},

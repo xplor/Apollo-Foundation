@@ -37,7 +37,7 @@
           "dm": {"value": "{color.purple.400.value}", "themable": true, "comment": "themable"}
         },
         "secondary-bg": {
-          "lm": {"value": "{color.purple.100.value}", "themable": true, "comment": "themable"},
+          "lm": {"value": "{color.purple.50.value}", "themable": true, "comment": "themable"},
           "dm": {"value": "{color.gray.900.value}", "themable": true, "comment": "themable"}
         }
     }
