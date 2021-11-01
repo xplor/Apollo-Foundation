@@ -1,0 +1,22 @@
+{
+  "name": "@xplor/apollo-foundation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xplor/Apollo-Foundation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xplor/Apollo-Foundation/issues"
+  },
+  "homepage": "https://github.com/xplor/Apollo-Foundation#readme",
+  "dependencies": {
+    "style-dictionary": "^3.0.3"
+  }
+}
