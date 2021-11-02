@@ -16,7 +16,10 @@
     "url": "https://github.com/xplor/Apollo-Foundation/issues"
   },
   "homepage": "https://github.com/xplor/Apollo-Foundation#readme",
-  "dependencies": {
+  "devDependencies": {
     "style-dictionary": "^3.0.3"
-  }
+  },
+  "files": [
+    "build/css/variables.css"
+  ]
 }
