@@ -38,7 +38,7 @@
       "files": [
         {
           "destination": "colors.js",
-          "format": "javascript/es6",
+          "format": "javascript/umd",
           "filter": {
             "attributes": {
               "category": "color"
@@ -50,7 +50,7 @@
         },
         {
           "destination": "font.js",
-          "format": "javascript/es6",
+          "format": "javascript/umd",
           "filter": {
             "attributes": {
               "category": "font"
