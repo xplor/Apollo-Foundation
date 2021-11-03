@@ -1,6 +1,6 @@
 {
   "name": "@xplortech/apollo-foundation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "style-dictionary": "^3.0.3"
   },
   "files": [
-    "build/css/variables.css"
+    "build"
   ]
 }
