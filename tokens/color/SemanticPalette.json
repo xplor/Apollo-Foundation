@@ -25,11 +25,11 @@
         "dm": {"value": "{color.transparent.value}"}
       },
       "information": {
-        "lm": {"value": "{color.primary.lm.value}","comment": "uses themable token"},
-        "dm": {"value": "{color.primary.dm.value}","comment": "uses themable token"}
+        "lm": {"value": "{color.secondary.lm.value}","comment": "uses themable token"},
+        "dm": {"value": "{color.secondary.dm.value}","comment": "uses themable token"}
       },
       "information-bg": {
-        "lm": {"value": "{color.primary-bg.lm.value}","comment": "uses themable token"},
+        "lm": {"value": "{color.secondary-bg.lm.value}","comment": "uses themable token"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "trivial": {
