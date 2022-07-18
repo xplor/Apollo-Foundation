@@ -18,7 +18,7 @@
         },
         "stroke": {
           "lm": {"value": "{color.gray.400.value}"},
-          "dm": {"value": "{color.gray.700.value}"}
+          "dm": {"value": "{color.gray.600.value}"}
         },
         "primary": {
           "lm": {"value": "{color.orange.600.value}", "themable": true, "comment": "themable"},
