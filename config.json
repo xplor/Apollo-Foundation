@@ -14,6 +14,31 @@
             "showFileHeader": false,
             "outputReferences": true
           }
+        },
+        {
+          "destination": "theme.css",
+          "format": "css/variables",
+          "fileHeader": "myFileHeader",
+          "filter": {
+            "attributes": {
+              "category": "theme"
+            }
+          }, 
+          "options": {
+            "showFileHeader": false,
+            "outputReferences": true
+          }
+        }
+      ],
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables",
+          "fileHeader": "myFileHeader",
+          "options": {
+            "showFileHeader": false,
+            "outputReferences": true
+          }
         }
       ]
     },
@@ -29,9 +54,23 @@
             "showFileHeader": true,
             "outputReferences": true
           }
+        },
+        {
+          "destination": "_theme.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "category": "theme"
+            }
+          }, 
+          "options": {
+            "showFileHeader": true,
+            "outputReferences": true
+          }
         }
       ]
     },
+    
     "js": {
       "buildPath": "build/js/",
       "transformGroup": "js",
@@ -87,6 +126,18 @@
               "category": "color"
             }
           }
+        },
+        {
+          "destination": "theme.xml",
+          "format": "android/resources",
+          "options": {
+            "outputReferences": true
+          },
+          "filter": {
+            "attributes": {
+              "category": "theme"
+            }
+          }
         }
       ]
     },
@@ -96,7 +147,7 @@
       "prefix": "xpl",
       "files": [
         {
-          "destination": "StyleDictionaryColor.swift",
+          "destination": "ApolloFoundationColor.swift",
           "format": "ios-swift/enum.swift",
           "className": "StyleDictionaryColor",
           "options": {
@@ -109,7 +160,7 @@
           }
         },
         {
-          "destination": "StyleDictionaryFont.swift",
+          "destination": "ApolloFoundationSize.swift",
           "format": "ios-swift/enum.swift",
           "className": "StyleDictionaryFont",
           "type": "float",
@@ -119,6 +170,20 @@
           "filter": {
             "attributes": {
               "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "ApolloFoundationTheme.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "StyleDictionaryFont",
+          "type": "float",
+          "options": {
+            "outputReferences": true
+          },
+          "filter": {
+            "attributes": {
+              "category": "theme"
             }
           }
         }
