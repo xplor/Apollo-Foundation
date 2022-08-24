@@ -15,28 +15,16 @@
             "outputReferences": true
           }
         },
-        {
+       {
           "destination": "theme.css",
-          "format": "css/variables",
-          "fileHeader": "myFileHeader",
+          "format": "scss/variables",
           "filter": {
             "attributes": {
               "category": "theme"
             }
           }, 
           "options": {
-            "showFileHeader": false,
-            "outputReferences": true
-          }
-        }
-      ],
-      "files": [
-        {
-          "destination": "variables.css",
-          "format": "css/variables",
-          "fileHeader": "myFileHeader",
-          "options": {
-            "showFileHeader": false,
+            "showFileHeader": true,
             "outputReferences": true
           }
         }
@@ -93,6 +81,18 @@
           "filter": {
             "attributes": {
               "category": "font"
+            }
+          },
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "theme.js",
+          "format": "javascript/umd",
+          "filter": {
+            "attributes": {
+              "category": "theme"
             }
           },
           "options": {

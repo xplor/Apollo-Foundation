@@ -4,7 +4,8 @@
       "green": {"value": "{color.green.200.value}"},
       "yellow": {"value": "{color.yellow.200.value}"},
       "pink": {"value": "{color.pink.300.value}"},
-      "purple": {"value": "{color.purple.300.value}"}
+      "purple": {"value": "{color.purple.300.value}"},
+      "blue": {"value": "{color.blue.200.value}"}
     }
   }
 }
