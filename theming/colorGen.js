@@ -1,5 +1,6 @@
 function generateColorList(primaryColor, secondaryColor) {
 
+    const themePrimary50 = chroma.mix(primaryColor, 'white', 0.9, 'hsl').hex();
     const themePrimary200 = chroma.mix(primaryColor, 'white', 0.6, 'hsl').hex();
     const themePrimary300 = chroma.mix(primaryColor, 'white', 0.4, 'hsl').hex();
     const themePrimary400 = chroma.mix(primaryColor, 'white', 0.2, 'hsl').hex();
@@ -8,6 +9,7 @@ function generateColorList(primaryColor, secondaryColor) {
     const themePrimaryGradStart = chroma.mix(primaryColor, 'white', 0.2, 'hsl').alpha(.2).hex();
     const themePrimaryGradEnd = chroma.mix(primaryColor, 'white', 0.2, 'hsl').alpha(.0).hex();
   
+    const themeSecondary50 = chroma.mix(secondaryColor, 'white', 0.9, 'hsl').hex();  
     const themeSecondary200 = chroma.mix(secondaryColor, 'white', 0.6, 'hsl').hex();
     const themeSecondary300 = chroma.mix(secondaryColor, 'white', 0.4, 'hsl').hex();
     const themeSecondary400 = chroma.mix(secondaryColor, 'white', 0.2, 'hsl').hex();
@@ -50,8 +52,8 @@ function generateColorList(primaryColor, secondaryColor) {
             dm: themePrimary300
           },
           surface: {
-            lm: themePrimary500,
-            dm: themePrimary200
+            lm: themePrimary50,
+            dm: ColorBackground2Dm
           },
           textOn: {
             lm: themePrimary500,
@@ -80,8 +82,8 @@ function generateColorList(primaryColor, secondaryColor) {
             dm: themeSecondary300
           },
           surface: {
-            lm: themeSecondary500,
-            dm: themeSecondary200
+            lm: themeSecondary50,
+            dm: ColorBackground2Dm
           },
           textOn: {
             lm: themeSecondary500,
@@ -93,6 +95,14 @@ function generateColorList(primaryColor, secondaryColor) {
           },
           gradientEnd: {
             lm: themeSecondary500,
+            dm: themeSecondaryGradEnd
+          },
+          surfaceGradientStart: {
+            lm: themeSecondary50,
+            dm: themeSecondaryGradStart
+          },
+          surfaceGradientEnd: {
+            lm: themeSecondary50,
             dm: themeSecondaryGradEnd
           },
           textOn: {
@@ -118,6 +128,14 @@ function generateColorList(primaryColor, secondaryColor) {
           lm: ColorStrokeLm,
           dm: ColorStrokeDm
         },
+        disabled: {
+          lm: ColorActionDisabledLm,
+          dm: ColorActionDisabledDm
+        },
+        buttontextprimary: {
+         lm: ColorTextPrimaryLm,
+         dm: ColorTextPrimaryLm
+        },
         text: {
           primary: {
             lm: ColorTextPrimaryLm,
@@ -134,6 +152,10 @@ function generateColorList(primaryColor, secondaryColor) {
           warning: {
             lm: ColorTextWarningLm,
             dm: ColorTextWarningDm
+          },
+          success: {
+            lm: ColorPositiveLm,
+            dm: ColorPositiveDm
           }
         }
       }
