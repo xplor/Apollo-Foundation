@@ -21,24 +21,24 @@
           "dm": {"value": "{color.gray.600.value}"}
         },
         "primary": {
-          "lm": {"value": "{color.orange.600.value}", "themable": true, "comment": "themable"},
-          "dm": {"value": "{color.orange.400.value}", "themable": true, "comment": "themable"}
+          "lm": {"value": "{color.orange.600.value}"},
+          "dm": {"value": "{color.orange.400.value}"}
         },
         "primary-bg": {
-          "lm": {"value": "{color.orange.50.value}", "themable": true, "comment": "themable"},
-          "dm": {"value": "{color.gray.900.value}", "themable": true, "comment": "themable"}
+          "lm": {"value": "{color.orange.50.value}"},
+          "dm": {"value": "{color.gray.900.value}"}
         },
         "secondary": {
-          "lm": {"value": "{color.purple.700.value}", "themable": true, "comment": "themable"},
-          "dm": {"value": "{color.purple.300.value}", "themable": true, "comment": "themable"}
+          "lm": {"value": "{color.purple.700.value}"},
+          "dm": {"value": "{color.purple.300.value}"}
         },
         "secondary-hover": {
-          "lm": {"value": "{color.purple.800.value}", "themable": true, "comment": "themable"},
-          "dm": {"value": "{color.purple.400.value}", "themable": true, "comment": "themable"}
+          "lm": {"value": "{color.purple.800.value}"},
+          "dm": {"value": "{color.purple.400.value}"}
         },
         "secondary-bg": {
-          "lm": {"value": "{color.purple.50.value}", "themable": true, "comment": "themable"},
-          "dm": {"value": "{color.gray.900.value}", "themable": true, "comment": "themable"}
+          "lm": {"value": "{color.purple.50.value}"},
+          "dm": {"value": "{color.gray.900.value}"}
         }
     }
   }

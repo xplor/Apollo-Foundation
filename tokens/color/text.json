@@ -18,8 +18,8 @@
         "dm": {"value": "{color.red.300.value}"}
       },
       "action": {
-        "lm": {"value": "{color.primary.lm.value}","comment": "uses themable token"},
-        "dm": {"value": "{color.primary.dm.value}","comment": "uses themable token"}
+        "lm": {"value": "{color.primary.lm.value}"},
+        "dm": {"value": "{color.primary.dm.value}"}
       },
       "reverse": {
         "lm": {"value": "{color.gray.0.value}"},

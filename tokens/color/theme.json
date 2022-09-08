@@ -1,0 +1,65 @@
+{
+    "theme": {
+        "color": {
+            "primary": {
+                "main": {
+                    "lm": {"value": "{theme.color.primary.500.value}"},
+                    "dm": {"value": "{theme.color.primary.200.value}"}
+                },
+                "focus": {
+                    "lm": {"value": "{theme.color.primary.600.value}"},
+                    "dm": {"value": "{theme.color.primary.300.value}"}
+                },
+                "surface": {
+                    "lm": {"value": "{theme.color.primary.50.value}"},
+                    "dm": {"value": "{color.background-2.dm.value}"}
+                },
+                "textOn": {
+                    "lm": {"value": "{color.text.reverse.lm.value}"},
+                    "dm": {"value": "{color.text.reverse.dm.value}"}
+                },
+                "50": {"value": "#F0E9FEff","comment": "primary.calc(10L)"},
+                "100": {"value": "#D2BDFCff","comment": "primary.calc(30L)"},
+                "200": {"value": "#C3A7FBff","comment": "primary.calc(40L)"},
+                "300": {"value": "#A57BF8ff","comment": "primary.calc(60L)"},
+                "400": {"value": "#874FF6ff","comment": "primary.calc(80L)"},
+                "500": {"value": "#6923F4ff","comment": "primary"},
+                "600": {"value": "#541CC3ff","comment": "primary.calc(80D)"},
+                "700": {"value": "#3F1592ff","comment": "primary.calc(60D)"},
+                "800": {"value": "#2A0E62ff","comment": "primary.calc(40D)"},
+                "900": {"value": "#1F0A49ff","comment": "primary.calc(30D)"},
+                "1000": {"value": "#0A0318ff","comment": "primary.calc(10D)"}
+            },
+            "secondary": {
+                "main": {
+                    "lm": {"value": "{theme.color.secondary.500.value}"},
+                    "dm": {"value": "{theme.color.secondary.200.value}"}
+                },
+                "focus": {
+                    "lm": {"value": "{theme.color.secondary.600.value}"},
+                    "dm": {"value": "{theme.color.secondary.300.value}"}
+                },
+                "surface": {
+                    "lm": {"value": "{theme.color.secondary.50.value}"},
+                    "dm": {"value": "{color.background-2.dm.value}"}
+                },
+                "textOn": {
+                    "lm": {"value": "{color.text.primary.lm.value}"},
+                    "dm": {"value": "{color.text.reverse.dm.value}"}
+                },
+                "50": {"value": "#FEF4F1FF","comment": "secondary.calc(10L)"},
+                "100": {"value": "#FDDED4FF","comment": "secondary.calc(30L)"},
+                "200": {"value": "#FDD3C6FF","comment": "secondary.calc(40L)"},
+                "300": {"value": "#FBBDA9FF","comment": "secondary.calc(60L)"},
+                "400": {"value": "#FAA78DFF","comment": "secondary.calc(80L)"},
+                "500": {"value": "#F99170FF","comment": "secondary"},
+                "600": {"value": "#C7745AFF","comment": "secondary.calc(80D)"},
+                "700": {"value": "#955743FF","comment": "secondary.calc(60D)"},
+                "800": {"value": "#643A2DFF","comment": "secondary.calc(40D)"},
+                "900": {"value": "#4B2B22FF","comment": "secondary.calc(30D)"},
+                "1000": {"value": "#190E0BFF","comment": "secondary.calc(10D)"}
+
+            }
+        }
+    }    
+}

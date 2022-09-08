@@ -14,6 +14,19 @@
             "showFileHeader": false,
             "outputReferences": true
           }
+        },
+       {
+          "destination": "theme.css",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "category": "theme"
+            }
+          }, 
+          "options": {
+            "showFileHeader": true,
+            "outputReferences": true
+          }
         }
       ]
     },
@@ -29,16 +42,30 @@
             "showFileHeader": true,
             "outputReferences": true
           }
+        },
+        {
+          "destination": "_theme.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "category": "theme"
+            }
+          }, 
+          "options": {
+            "showFileHeader": true,
+            "outputReferences": true
+          }
         }
       ]
     },
+    
     "js": {
       "buildPath": "build/js/",
       "transformGroup": "js",
       "files": [
         {
           "destination": "colors.js",
-          "format": "javascript/umd",
+          "format": "javascript/es6",
           "filter": {
             "attributes": {
               "category": "color"
@@ -50,10 +77,22 @@
         },
         {
           "destination": "font.js",
-          "format": "javascript/umd",
+          "format": "javascript/es6",
           "filter": {
             "attributes": {
               "category": "font"
+            }
+          },
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "theme.js",
+          "format": "javascript/es6",
+          "filter": {
+            "attributes": {
+              "category": "theme"
             }
           },
           "options": {
@@ -87,6 +126,18 @@
               "category": "color"
             }
           }
+        },
+        {
+          "destination": "theme.xml",
+          "format": "android/resources",
+          "options": {
+            "outputReferences": true
+          },
+          "filter": {
+            "attributes": {
+              "category": "theme"
+            }
+          }
         }
       ]
     },
@@ -96,7 +147,7 @@
       "prefix": "xpl",
       "files": [
         {
-          "destination": "StyleDictionaryColor.swift",
+          "destination": "ApolloFoundationColor.swift",
           "format": "ios-swift/enum.swift",
           "className": "StyleDictionaryColor",
           "options": {
@@ -109,7 +160,7 @@
           }
         },
         {
-          "destination": "StyleDictionaryFont.swift",
+          "destination": "ApolloFoundationSize.swift",
           "format": "ios-swift/enum.swift",
           "className": "StyleDictionaryFont",
           "type": "float",
@@ -119,6 +170,20 @@
           "filter": {
             "attributes": {
               "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "ApolloFoundationTheme.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "StyleDictionaryFont",
+          "type": "float",
+          "options": {
+            "outputReferences": true
+          },
+          "filter": {
+            "attributes": {
+              "category": "theme"
             }
           }
         }
