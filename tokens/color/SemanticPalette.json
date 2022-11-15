@@ -1,65 +1,65 @@
 {
   "color": {
       "positive": {
-        "lm": {"value": "{color.green.500.value}"},
-        "dm": {"value": "{color.green.300.value}"}
+        "lm": {"value": "{color.green500.value}"},
+        "dm": {"value": "{color.green300.value}"}
       },
       "positive-bg": {
-        "lm": {"value": "{color.green.100.value}"},
+        "lm": {"value": "{color.green100.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "negative": {
-        "lm": {"value": "{color.red.600.value}"},
-        "dm": {"value": "{color.red.300.value}"}
+        "lm": {"value": "{color.red600.value}"},
+        "dm": {"value": "{color.red300.value}"}
       },
       "negative-bg": {
-        "lm": {"value": "{color.red.100.value}"},
+        "lm": {"value": "{color.red100.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "highlight": {
-        "lm": {"value": "{color.yellow.500.value}"},
-        "dm": {"value": "{color.yellow.200.value}"}
+        "lm": {"value": "{color.yellow500.value}"},
+        "dm": {"value": "{color.yellow200.value}"}
       },
       "highlight-bg": {
-        "lm": {"value": "{color.yellow.200.value}"},
+        "lm": {"value": "{color.yellow200.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "information": {
-        "lm": {"value": "{color.secondary.lm.value}","comment": "uses themable token"},
-        "dm": {"value": "{color.secondary.dm.value}","comment": "uses themable token"}
+        "lm": {"value": "{color.secondary.lm.value}"},
+        "dm": {"value": "{color.secondary.dm.value}"}
       },
       "information-bg": {
-        "lm": {"value": "{color.secondary-bg.lm.value}","comment": "uses themable token"},
+        "lm": {"value": "{color.secondary-bg.lm.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "trivial": {
-        "lm": {"value": "{color.gray.600.value}"},
-        "dm": {"value": "{color.gray.500.value}"}
+        "lm": {"value": "{color.gray600.value}"},
+        "dm": {"value": "{color.gray500.value}"}
       },
       "trivial-bg": {
-        "lm": {"value": "{color.gray.400.value}"},
+        "lm": {"value": "{color.gray400.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
       "action": {
         "primary": {
-          "lm": {"value": "{color.purple.700.value}"},
-          "dm": {"value": "{color.purple.300.value}"}
+          "lm": {"value": "{color.purple700.value}"},
+          "dm": {"value": "{color.purple300.value}"}
         },
         "primary.hover": {
-          "lm": {"value": "{color.purple.800.value}"},
-          "dm": {"value": "{color.purple.400.value}"}
+          "lm": {"value": "{color.purple800.value}"},
+          "dm": {"value": "{color.purple400.value}"}
         },
         "disabled": {
-          "lm": {"value": "{color.gray.100.value}"},
-          "dm": {"value": "{color.gray.800.value}"}
+          "lm": {"value": "{color.gray100.value}"},
+          "dm": {"value": "{color.gray800.value}"}
         },
         "warning": {
-          "lm": {"value": "{color.red.700.value}"},
-          "dm": {"value": "{color.red.300.value}"}
+          "lm": {"value": "{color.red700.value}"},
+          "dm": {"value": "{color.red300.value}"}
         },
         "warning.hover": {
-          "lm": {"value": "{color.red.800.value}"},
-          "dm": {"value": "{color.red.400.value}"}
+          "lm": {"value": "{color.red800.value}"},
+          "dm": {"value": "{color.red400.value}"}
         }
       }
     }
