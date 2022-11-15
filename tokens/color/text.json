@@ -1,11 +1,17 @@
 {
   "color": {
     "text": {
-      "primary": {
-        "lm": {"value": "{color.gray900.value}"},
-        "dm": {"value": "{color.gray0.value}"}
+        "lm": {"value": "{color.gray1000.value}"},
+        "dm": {"value": "{color.gray0.value}"},
+      "onPrimary": {
+          "lm": {"value": "{color.gray1000.value}"},
+          "dm": {"value": "{color.gray1000.value}}"}
+        },
+      "onSecondary": {
+        "lm": {"value": "{color.gray0.value}"},
+        "dm": {"value": "{color.gray1000.value}"}
       },
-      "secondary": {
+      "subdued": {
         "lm": {"value": "{color.gray600.value}"},
         "dm": {"value": "{color.gray500.value}"}
       },
@@ -13,13 +19,13 @@
         "lm": {"value": "{color.gray0.value}"},
         "dm": {"value": "{color.gray1000.value}"}
       },
-      "warning": {
+      "negative": {
         "lm": {"value": "{color.red700.value}"},
         "dm": {"value": "{color.red300.value}"}
       },
-      "action": {
-        "lm": {"value": "{color.primary.lm.value}"},
-        "dm": {"value": "{color.primary.dm.value}"}
+      "positive": {
+        "lm": {"value": "{color.green700.value}"},
+        "dm": {"value": "{color.green300.value}"}
       }
     }
   }
