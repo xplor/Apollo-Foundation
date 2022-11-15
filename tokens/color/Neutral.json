@@ -19,26 +19,6 @@
         "stroke": {
           "lm": {"value": "{color.gray400.value}"},
           "dm": {"value": "{color.gray600.value}"}
-        },
-        "primary": {
-          "lm": {"value": "{color.orange600.value}"},
-          "dm": {"value": "{color.orange400.value}"}
-        },
-        "primary-bg": {
-          "lm": {"value": "{color.orange50.value}"},
-          "dm": {"value": "{color.gray900.value}"}
-        },
-        "secondary": {
-          "lm": {"value": "{color.purple700.value}"},
-          "dm": {"value": "{color.purple300.value}"}
-        },
-        "secondary-hover": {
-          "lm": {"value": "{color.purple800.value}"},
-          "dm": {"value": "{color.purple400.value}"}
-        },
-        "secondary-bg": {
-          "lm": {"value": "{color.purple50.value}"},
-          "dm": {"value": "{color.gray900.value}"}
         }
     }
   }
