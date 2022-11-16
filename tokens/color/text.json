@@ -5,7 +5,7 @@
         "dm": {"value": "{color.gray0.value}"},
       "onPrimary": {
           "lm": {"value": "{color.gray1000.value}"},
-          "dm": {"value": "{color.gray1000.value}}"}
+          "dm": {"value": "{color.gray1000.value}"}
         },
       "onSecondary": {
         "lm": {"value": "{color.gray0.value}"},
