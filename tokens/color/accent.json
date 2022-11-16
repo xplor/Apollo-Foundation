@@ -1,0 +1,28 @@
+{
+  "color": {
+    "accent": {
+      "green": {
+        "lm": {"value": "{color.green200.value}"},
+        "dm": {"value": "{color.green200.value}"}
+      },
+      "yellow": {
+        "lm": {"value": "{color.yellow200.value}"},
+        "dm": {"value": "{color.yellow200.value}"}
+      },
+      "pink": {
+        "lm": {"value": "{color.pink300.value}"},
+        "dm": {"value": "color.pink300.value}"}
+      },
+      "purple": {
+        "lm": {"value": "{color.purple300.value}"},
+        "dm": {"value": "{color.purple300.value}"}
+      },
+      "blue": {
+        "lm": {"value": "{color.blue200.value}"},
+        "dm": {"value": "{color.blue200.value}"}
+      }
+    }
+  }
+}
+
+

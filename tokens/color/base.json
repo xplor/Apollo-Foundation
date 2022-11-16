@@ -96,6 +96,16 @@
         "red700": {"value": "#c2210fff"},
         "red800": {"value": "#961305ff"},
         "red900": {"value": "#731409ff"},
+        "blue50": {"value": "#E8FCFF"},
+        "blue100": {"value": "#D1F9FF"},
+        "blue200": {"value": "#BAF6FF"},
+        "blue300": {"value": "#9FDAF5"},
+        "blue400": {"value": "#85BFEB"},
+        "blue500": {"value": "#6AA3E0"},
+        "blue600": {"value": "#5088D6"},
+        "blue700": {"value": "#356CCC"},
+        "blue800": {"value": "#2253B3"},
+        "blue900": {"value": "#0F3999"},
         "transparent": {"value": "#ffffff00"}
     }
 }
