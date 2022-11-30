@@ -67,7 +67,7 @@ const createColorList = (primaryColor, secondaryColor) => {
         root.style.setProperty(`--xpl-color-primary900`, primary900);
         root.style.setProperty(`--xpl-color-primary1000`, primary1000);
         root.style.setProperty(`--xpl-color-brand-primary-gradient-start-dm`, primaryDMGradStart);
-        root.style.setProperty(`--xpl-color-brand-primary-gradient-start-dm`, primaryDMGradEnd);
+        root.style.setProperty(`--xpl-color-brand-primary-gradient-end-dm`, primaryDMGradEnd);
         root.style.setProperty(`--xpl-color-text-on-primary-lm`, textOnPrimary);
 
         root.style.setProperty(`--xpl-color-secondary50`, secondary50);
@@ -83,9 +83,10 @@ const createColorList = (primaryColor, secondaryColor) => {
         root.style.setProperty(`--xpl-color-secondary900`, secondary900);
         root.style.setProperty(`--xpl-color-secondary1000`, secondary1000);
         root.style.setProperty(`--xpl-color-brand-secondary-gradient-start-dm`, secondaryDMGradStart);
-        root.style.setProperty(`--xpl-color-brand-secondary-gradient-start-dm`, secondaryDMGradEnd);
+        root.style.setProperty(`--xpl-color-brand-secondary-gradient-end-dm`, secondaryDMGradEnd);
         root.style.setProperty(`--xpl-color-text-on-secondary-lm`, textOnSecondary);
     }
 
     updateCSS();
+
 };

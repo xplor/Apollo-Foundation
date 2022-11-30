@@ -7,16 +7,7 @@
             "surface": {
                 "lm": {"value": "{color.primary50.value}"},
                 "dm": {"value": "{color.gray1100.value}"}
-            },
-            "gradient": {
-                "start": {
-                    "lm": {"value": "{color.primary400.value}"},
-                    "dm": {"value": "#563D3D"}
-                },
-                "end": {
-                    "lm": {"value": "{color.primary500.value}"},
-                    "dm": {"value": "#191720"}
-                }
+            }
             }
           },
           "secondary": {
@@ -25,18 +16,7 @@
             "surface": {
                 "lm": {"value": "{color.secondary50.value}"},
                 "dm": {"value": "{color.gray1100.value}"}
-            },
-            "gradient": {
-                "start": {
-                    "lm": {"value": "{color.secondary400.value}"},
-                    "dm": {"value": "#40365E"}
-                },
-                "end": {
-                    "lm": {"value": "{color.secondary500.value}"},
-                    "dm": {"value": "#191720"}
-                }
             }
-          }
-      }
+        }
     }
-  }
+}
