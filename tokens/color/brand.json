@@ -1,0 +1,22 @@
+{
+    "color": {
+      "brand": {
+        "primary": {
+            "lm": {"value": "{color.primary500.value}"},
+            "dm": {"value": "{color.primary200.value}"},
+            "surface": {
+                "lm": {"value": "{color.primary50.value}"},
+                "dm": {"value": "{color.gray1100.value}"}
+            }
+            }
+          },
+          "secondary": {
+            "lm": {"value": "{color.secondary500.value}"},
+            "dm": {"value": "{color.secondary200.value}"},
+            "surface": {
+                "lm": {"value": "{color.secondary50.value}"},
+                "dm": {"value": "{color.gray1100.value}"}
+            }
+        }
+    }
+}

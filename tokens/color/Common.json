@@ -1,0 +1,74 @@
+{
+  "color": {
+      "positive": {
+        "lm": {"value": "{color.green500.value}"},
+        "dm": {"value": "{color.green300.value}"},
+        "surface": {
+          "lm": {"value": "{color.green100.value}"},
+          "dm": {"value": "{color.gray1000.value}"}
+        }
+      },
+      "negative": {
+        "lm": {"value": "{color.red600.value}"},
+        "dm": {"value": "{color.red300.value}"},
+        "surface": {
+          "lm": {"value": "{color.red100.value}"},
+          "dm": {"value": "{color.gray1000.value}"}
+        }
+      },
+      "highlight": {
+        "lm": {"value": "{color.yellow500.value}"},
+        "dm": {"value": "{color.yellow200.value}"},
+        "surface": {
+          "lm": {"value": "{color.yellow200.value}"},
+          "dm": {"value": "{color.gray1000.value}"}
+        }
+      },
+      "information": {
+        "lm": {"value": "{color.purple700.value}"},
+        "dm": {"value": "{color.purple300.value}"},
+        "surface": {
+          "lm": {"value": "{color.purple100.value}"},
+          "dm": {"value": "{color.gray1000.value}"}
+        }
+      },
+      "trivial": {
+        "lm": {"value": "{color.gray600.value}"},
+        "dm": {"value": "{color.gray500.value}"},
+        "surface": {
+          "lm": {"value": "{color.gray400.value}"},
+          "dm": {"value": "{color.gray1000.value}"}
+        }
+      },
+      "action": {
+        "primary": {
+          "lm": {"value": "{color.secondary500.value}"},
+          "dm": {"value": "{color.secondary200.value}"},
+          "focus": {
+            "lm": {"value": "{color.secondary600.value}"},
+            "dm": {"value": "{color.secondary300.value}"}
+          }
+        },
+        "negative": {
+          "lm": {"value": "{color.red700.value}"},
+          "dm": {"value": "{color.red300.value}"},
+          "focus": {
+            "lm": {"value": "{color.red800.value}"},
+            "dm": {"value": "{color.red400.value}"}
+          }
+        },
+        "positive": {
+          "lm": {"value": "{color.green700.value}"},
+          "dm": {"value": "{color.green200.value}"},
+          "focus": {
+            "lm": {"value": "{color.green800.value}"},
+            "dm": {"value": "{color.green400.value}"}
+          }
+        },
+        "disabled": {
+          "lm": {"value": "{color.gray100.value}"},
+          "dm": {"value": "{color.gray800.value}"}
+        }
+      }
+    }
+}
