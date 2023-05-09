@@ -1,5 +1,5 @@
 {
-  "color": {  
+  "color": {
       "gray": {
         "0": {"value": "#ffffffff"},
         "50": {"value": "#f8f9faff"},
@@ -39,6 +39,18 @@
         "700": {"value": "#cc4121ff"},
         "800": {"value": "#a6361aff"},
         "900": {"value": "#7a2714ff"}
+      },
+      "blue": {
+        "50": {"value": "#e8fcffff"},
+        "100": {"value": "#d1f9ffff"},
+        "200": {"value": "#baf6ffff"},
+        "300": {"value": "#9fdaf5ff"},
+        "400": {"value": "#85bfebff"},
+        "500": {"value": "#6aa3e0ff"},
+        "600": {"value": "#5088d6ff"},
+        "700": {"value": "#356cccff"},
+        "800": {"value": "#2253b3ff"},
+        "900": {"value": "#0f3999ff"}
       },
       "green": {
         "50": {"value": "#ebfff8ff"},
