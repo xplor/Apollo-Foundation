@@ -24,6 +24,10 @@
         "lm": {"value": "{color.yellow.200.value}"},
         "dm": {"value": "{color.transparent.value}"}
       },
+      "blue": {
+        "lm": {"value": "{color.blue.500.value}"},
+        "dm": {"value": "{color.blue.200.value}"}
+      },
       "information": {
         "lm": {"value": "{color.secondary.lm.value}","comment": "uses themable token"},
         "dm": {"value": "{color.secondary.dm.value}","comment": "uses themable token"}
