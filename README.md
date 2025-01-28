@@ -9,7 +9,7 @@ While Xplor recommends the use of Apollo components whenever possible, you may a
 First, download the latest version of this package with NPM:
 
 ```bash
-npm install @xplortech/apollo-foundation
+npm install @xplor/apollo-foundation
 ```
 
 Depending on how you prefer to import design variables, there are two recommended methods for a web project &mdash; 1) CSS variables or 2) JavaScript variables (it is possible to use both!)
@@ -19,11 +19,11 @@ Depending on how you prefer to import design variables, there are two recommende
 You can either `@import` the variables in a CSS file in your project, or reference it as a `<link>` in the `<head>` of your document.
 
 ```css
-@import "@xplortech/apollo-foundation/build/css/variables.css";
+@import "@xplor/apollo-foundation/build/css/variables.css";
 ```
 
 ```html
-<link rel="stylesheet" href="@xplortech/apollo-foundation/build/css/variables.css">
+<link rel="stylesheet" href="@xplor/apollo-foundation/build/css/variables.css">
 ```
 
 Including the CSS variables by one of these two methods will add all the design tokens to the global scope of your CSS. Each variable is namespaced with `--xpl` (to attempt to prevent conflicts with other global CSS variables). The variables take the form `--xpl-{category}-{class}-{modifier}-{value}-{mode}`. Categories are things like `color` and `size`, classes are things like `red` and `spacing`. There may be 0, 1, 2, or more modifiers (such as `success` or `warning`). Values are usually numeric (e.g. `0`, lightest, through `900`, darkest, for color values), but can also be strings (`bold` for font weight). Finally, if there is a mode, it is always either `lm` for light mode, or `dm` for dark mode.
@@ -33,8 +33,8 @@ Including the CSS variables by one of these two methods will add all the design 
 Import the type of variables you wish to reference:
 
 ```js
-import { color } from "@xplortech/apollo-foundation/build/js/colors.js";
-import { font } from "@xplortech/apollo-foundation/build/js/font.js"; 
+import { color } from "@xplor/apollo-foundation/build/js/colors.js";
+import { font } from "@xplor/apollo-foundation/build/js/font.js"; 
 ```
 
 `color` and `font` are both deeply nested JavaScript objects (roughly following the pattern described above for CSS variables). For example, to reference the `red-700` color value, you would write:
