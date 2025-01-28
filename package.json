@@ -21,5 +21,8 @@
   },
   "files": [
     "build"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
