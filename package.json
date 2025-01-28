@@ -1,7 +1,7 @@
 {
-  "name": "@xplortech/apollo-foundation",
+  "name": "@xplor/apollo-foundation",
   "version": "0.1.0-alpha.0",
-  "description": "",
+  "description": "The design tokens for Xplor and Xplor's Apollo design library",
   "main": "index.js",
   "scripts": {
     "build": "style-dictionary build"
@@ -21,5 +21,8 @@
   },
   "files": [
     "build"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
