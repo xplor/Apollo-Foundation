@@ -8,7 +8,7 @@ While Xplor recommends the use of Apollo components whenever possible, you may a
 
 First, download the latest version of this package with NPM:
 
-```
+```bash
 npm install @xplortech/apollo-foundation
 ```
 
