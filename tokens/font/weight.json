@@ -1,9 +1,10 @@
 {
   "font": {
     "weight": {
-      "Bold" : {"value": "bold"},
-      "Medium" : {"value": "medium"},
-      "Normal" : {"value": "normal"}
+        "Bold" : {"value": "700"},
+        "Semibold" : {"value": "600"},
+        "Medium" : {"value": "500"},
+        "Normal" : {"value": "400"}
     }
   }
 }
