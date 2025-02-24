@@ -56,5 +56,4 @@ jobs:
       TAG_NAME: ${{ needs.release.outputs.tag_name }}
       TAG_NUMBER: ${{ needs.release.outputs.tag_number }}
       ID: ${{ needs.release.outputs.id }}
-      IS_PRERELEASE: ${{ needs.release.outputs.is_prerelease == true }}
       IS_DRYRUN: ${{ inputs.IS_DRYRUN == 'true' }}
