@@ -1,0 +1,77 @@
+name: Release and Publish
+
+on:
+  workflow_call:
+    inputs:
+      TAG_NAME:
+        type: string
+        required: true
+
+      TAG_NUMBER:
+        type: string
+        required: true
+
+      ID:
+        type: string
+        required: true
+
+      IS_DRYRUN:
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  packages: write
+  attestations: write
+  id-token: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+          token: '${{ env.GITHUB_TOKEN }}'
+
+      - name: 🛠 Setting Up Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ env.GITHUB_TOKEN }}
+
+      - name: 🤖 Installing Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: "npm"
+
+      - name: 🤖 Installing Dependencies
+        run: npm ci
+
+      - name: 💅 Building CSS and Stencil
+        run: npm run build
+
+      # - name: Tag and Release the latest
+      #   id: tag_and_release_latest
+      #   if: ${{ inputs.IS_DRYRUN == false}}
+      #   run: |
+      #     npm version ${{ inputs.tag_number }} -m "[Release] Apollo Foundations %s"
+      #     git push origin main
+      - name: "Dry Run: Tag and Release the latest"
+        id: tag_and_release_latest_dry_run
+        # if: ${{ inputs.IS_DRYRUN == true}}
+        run: |
+          cat << EOF
+          npm version ${{ inputs.tag_number }} -m "[Release] Apollo Foundations %s"
+          git push origin main
+          EOF
+
+      - name: Publish Release
+        if: ${{ inputs.IS_DRYRUN  == false}}
+        uses: eregon/publish-release@v1
+        with:
+          release_id: ${{ inputs.id }}
+

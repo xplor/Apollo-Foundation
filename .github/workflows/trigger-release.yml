@@ -1,0 +1,60 @@
+name: Trigger Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      IS_DRYRUN:
+        type: boolean
+        description: "Is this a Dry Run?"
+        default: false
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    outputs:
+      tag_name: ${{ steps.get_draft_release_meta.outputs.tag_name }}
+      tag_number: ${{ steps.get_draft_release_meta.outputs.tag_number }}
+      id: ${{ steps.get_draft_release_meta.outputs.id }}
+      is_prerelease: ${{ steps.get_draft_release_meta.outputs.is_prerelease }}
+    steps:
+      - name: Get draft release meta
+        id: get_draft_release_meta
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // gets the first 100 releases (more than enough)
+            const releaseList = await github.rest.repos.listReleases({
+              repo: context.repo.repo,
+              owner: context.repo.owner,
+              per_page: '100',
+              page: 1
+            });
+
+            // find the first draft release
+            const { tag_name, id, prerelease = false } = releaseList.data.find(release => release.draft);
+
+            // sets the tag_number and id to this step's outputs
+            core.setOutput('tag_name', tag_name);
+            core.setOutput('tag_number', tag_name.replace('v', ''));
+            core.setOutput('id', id);
+            core.setOutput('is_prerelease', prerelease === true);
+
+  release_and_publish:
+    name: Release and publish
+    uses: ./.github/workflows/release-and-publish.yml
+    secrets: inherit
+    permissions:
+      contents: write
+      packages: write
+      attestations: write
+      id-token: write
+    needs: release
+    with:
+      TAG_NAME: ${{ needs.release.outputs.tag_name }}
+      TAG_NUMBER: ${{ needs.release.outputs.tag_number }}
+      ID: ${{ needs.release.outputs.id }}
+      IS_PRERELEASE: ${{ needs.release.outputs.is_prerelease == true }}
+      IS_DRYRUN: ${{ inputs.IS_DRYRUN == 'true' }}
