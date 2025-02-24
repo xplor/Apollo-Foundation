@@ -1,21 +1,25 @@
 name: Release and Publish
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       TAG_NAME:
+        description: 'TEMP: The tag name'
         type: string
         required: true
 
       TAG_NUMBER:
+        description: 'TEMP: The tag number'
         type: string
         required: true
 
       ID:
+        description: 'TEMP: The ID'
         type: string
         required: true
 
       IS_DRYRUN:
+        description: 'TEMP: Is this a Dry Run?'
         type: boolean
         default: false
 
