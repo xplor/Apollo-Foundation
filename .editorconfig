@@ -27,6 +27,11 @@ space_after_control_statements = true
 space_after_anonymous_functions = true
 spaces_in_brackets = false
 
+[*.yml]
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
 # No standard.  Please document a standard if different from .js
 [*.md]
 indent_style = space
